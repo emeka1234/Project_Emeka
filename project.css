@@ -92,9 +92,20 @@ body {
     width: 100%;
     padding: 20px;
 }
+
+.img1{
+    background-image: url("images/csgo image 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img2{
+    background-image: url("images/csgo image 2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 /* Profile photo */
 .profile-photo{
-    background-image: url("images/emeka.png");
+    background-image: url("images/csgo image 3.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
@@ -147,6 +158,10 @@ body {
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
+    body{
+        padding: 0;
+    }
+
     #container {
         width: 100%;
     }
